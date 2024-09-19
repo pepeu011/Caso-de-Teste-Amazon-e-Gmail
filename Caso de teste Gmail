@@ -1,0 +1,87 @@
+Plano de Teste para Gmail
+
+Login e Logout
+•	Login com Credenciais Válidas
+o	Ação: Inserir um e-mail e senha válidos.
+o	Resultado Esperado: O usuário deve ser redirecionado para a caixa de entrada.
+
+•	Login com Credenciais Inválidas
+o	Ação: Inserir um e-mail ou senha inválidos.
+o	Resultado Esperado: Uma mensagem de erro deve ser exibida.
+
+•	Logout
+o	Ação: Clicar no botão de logout.
+o	Resultado Esperado: O usuário deve ser redirecionado para a página de login.
+
+2. Envio e Recebimento de E-mails
+•	Envio de E-mail
+o	Ação: Compor um e-mail e enviá-lo.
+o	Resultado Esperado: O e-mail deve aparecer na caixa de entrada do destinatário.
+
+•	Recebimento de E-mail
+o	Ação: Enviar um e-mail de uma conta diferente.
+o	Resultado Esperado: O e-mail deve ser recebido na caixa de entrada.
+
+3. Pesquisa de E-mails
+•	Pesquisa por Palavra-chave
+o	Ação: Pesquisar um e-mail por palavra-chave conhecida.
+o	Resultado Esperado: O e-mail correspondente deve aparecer nos resultados.
+
+•	Pesquisa por Remetente
+o	Ação: Pesquisar por e-mails de um remetente específico.
+o	Resultado Esperado: Todos os e-mails do remetente devem ser exibidos.
+
+4. Anexos
+•	Envio de E-mail com Anexo
+o	Ação: Enviar um e-mail com um arquivo anexo.
+o	Resultado Esperado: O destinatário deve receber o e-mail com o anexo acessível.
+
+•	Recebimento de E-mail com Anexo
+o	Ação: Receber um e-mail com um anexo.
+o	Resultado Esperado: O anexo deve estar disponível para download.
+
+Desempenho
+
+1. Tempo de Resposta
+•	Carregamento da Caixa de Entrada
+o	Ação: Registrar o tempo para a caixa de entrada carregar.
+o	Resultado Esperado: O tempo deve estar abaixo de um limite predefinido (ex: 2 segundos).
+
+•	Envio de E-mail
+o	Ação: Medir o tempo que leva para enviar um e-mail.
+o	Resultado Esperado: O envio deve ocorrer em menos de 1 segundo.
+
+2. Busca de E-mails
+•	Busca em Grande Volume
+o	Ação: Realizar uma pesquisa em uma conta com milhares de e-mails.
+o	Resultado Esperado: O tempo de resposta deve ser aceitável (ex: abaixo de 3 segundos).
+
+Segurança
+
+1. Proteção de Dados
+•	Acesso Não Autorizado
+o	Ação: Tentar acessar a conta sem autenticação.
+o	Resultado Esperado: O acesso deve ser negado.
+
+2. Autenticação
+•	Tentativa de Login com 2FA
+o	Ação: Tentar fazer login sem o segundo fator de autenticação.
+o	Resultado Esperado: O login deve falhar.
+
+3. Anexos
+•	Verificação de Segurança de Anexos
+o	Ação: Tentar enviar um anexo malicioso.
+o	Resultado Esperado: O sistema deve bloquear o envio e notificar o usuário.
+
+Teste Unitário
+
+1. Funções de Envio
+•	Função de Envio
+o	Ação: Testar a função de envio com diferentes entradas (válidas e inválidas).
+o	Resultado Esperado: A função deve retornar resultados corretos para entradas válidas e erros apropriados para entradas inválidas.
+
+2. Validação de Entrada
+•	Validação de E-mail e Anexos
+o	Ação: Testar as funções que validam e-mails e anexos com formatos e tamanhos diversos.
+o	Resultado Esperado: A validação deve aceitar entradas corretas e rejeitar entradas inválidas.
+
