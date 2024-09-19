@@ -2,46 +2,46 @@ Funcionalidades
 
 Busca de Produtos
 Descrição: Testar a precisão e relevância dos resultados da busca.
-Verificação: Confirmar se os produtos exibidos correspondem aos termos de busca e se são relevantes para o usuário.
+Verificação: Os resultados da busca são precisos e relevantes, exibindo produtos que correspondem adequadamente aos termos de busca do usuário.
 
 Adição ao Carrinho
 Descrição: Testar a adição e remoção de produtos no carrinho de compras.
-Verificação: Garantir que os produtos possam ser adicionados e removidos corretamente, e que o total do carrinho seja atualizado.
+Verificação: Os produtos são adicionados e removidos do carrinho de compras corretamente, com o total sendo atualizado de forma precisa após cada ação.
 
 Login e Logout
 Descrição: Verificar se o processo de login e logout funciona corretamente.
-Verificação: Confirmar que usuários podem acessar suas contas e sair delas sem problemas, e que as credenciais são validadas corretamente.
+Verificação: O processo de login e logout funciona sem problemas, permitindo que os usuários acessem e saiam de suas contas com validação correta das credenciais.
 
 Checkout
 Descrição: Verificar o processo de finalização da compra, incluindo o cálculo de impostos e frete.
-Verificação: Testar se todos os cálculos estão corretos e se o processo de pagamento é fluido e sem erros.
+Verificação: O processo de finalização da compra é fluido e sem erros, com cálculos de impostos e frete realizados corretamente.
 
 Histórico de Pedidos
 Descrição: Testar a visualização e o gerenciamento do histórico de pedidos.
-Verificação: Confirmar se os usuários podem acessar e visualizar todos os seus pedidos anteriores corretamente.
+Verificação: Os usuários podem acessar e visualizar todos os seus pedidos anteriores corretamente, com todas as informações necessárias disponíveis.
 
 Desempenho
 
 Tempo de Resposta
-Medição: Medir o tempo necessário para realizar login, buscar produtos, adicionar itens ao carrinho e concluir o checkout. Isso será feito usando ferramentas de monitoramento de performance.
+Medição: O tempo para realizar login, buscar produtos, adicionar itens ao carrinho e concluir o checkout está dentro de limites aceitáveis, conforme medido por ferramentas de monitoramento de performance.
 
 Carga
-Avaliação: Testar o desempenho sob alta carga de usuários simultâneos, simulando picos de tráfego, como durante promoções. Analisar se o sistema mantém um tempo de resposta aceitável e se não apresenta falhas.
+Avaliação: O sistema mantém um tempo de resposta aceitável e não apresenta falhas sob alta carga de usuários simultâneos, mesmo durante picos de tráfego, como em promoções.
 
 Segurança
 
 Proteção de Dados
-Verificação: Testar a segurança dos dados pessoais e financeiros durante o login e checkout, verificando se as informações são criptografadas e armazenadas de forma segura.
+Verificação: Os dados pessoais e financeiros dos usuários estão protegidos durante o login e checkout, com informações sendo criptografadas e armazenadas de forma segura.
 
 Autenticação
-Teste: Avaliar a robustez do sistema de autenticação, incluindo a força das senhas e a implementação de verificação em duas etapas, se disponível.
+Teste: O sistema de autenticação é robusto, com senhas fortes e, quando disponível, a implementação de verificação em duas etapas.
 
 Transações
-Garantia: Verificar se as informações de pagamento são transmitidas de forma segura, utilizando criptografia para proteger dados sensíveis.
+Garantia: As informações de pagamento são transmitidas de forma segura, utilizando criptografia para proteger dados sensíveis.
 Teste Unitário
 
 Funções de Cálculo
-Teste: Validar as funções que calculam preços de produtos, impostos e frete para garantir que estão retornando os valores corretos em diferentes cenários.
+Teste: As funções que calculam preços de produtos, impostos e frete retornam valores corretos em diferentes cenários.
 
 Validação de Dados
-Teste: Testar funções que validam entradas de usuário, como formulários de checkout, garantindo que apenas dados válidos sejam aceitos e que erros sejam tratados adequadamente.
+Teste: As funções que validam entradas de usuário, como nos formulários de checkout, aceitam apenas dados válidos e tratam erros adequadamente.
